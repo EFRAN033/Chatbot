@@ -1,7 +1,6 @@
 # Base de datos SQLite
 *.sqlite3
 *.sqlite
-db.sqlite3
 
 # Entorno virtual
 venv/
