@@ -108,7 +108,7 @@
             }
         }
 
-        // Manejar Enter (Shift+Enter para nueva línea)
+        
         userInput.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' && !e.shiftKey) {
                 e.preventDefault();
@@ -116,7 +116,7 @@
             }
         });
 
-        // Auto-enfoque al cargar
+        
         window.addEventListener('load', () => userInput.focus());
     </script>
 </body>
